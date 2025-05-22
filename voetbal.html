@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Team Schedule with Results and Points</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f7f9fc;
+      color: #333;
+      margin: 20px;
+      padding: 0;
+    }
+    h1 {
+      text-align: center;
+      color: #004085;
+      margin-bottom: 40px;
+      font-weight: 700;
+    }
+    .round {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px 30px;
+      margin-bottom: 30px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .round-date {
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #002752;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #004085;
+      padding-bottom: 5px;
+      letter-spacing: 0.05em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    th, td {
+      padding: 10px 15px;
+      text-align: center;
+      border-bottom: 1px solid #ddd;
+    }
+    th {
+      background: #004085;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    tr:nth-child(even) {
+      background: #e9f0fb;
+    }
+    .team-name {
+      font-weight: 600;
+      color: #002752;
+      text-align: left;
+    }
+    .team-code {
+      background: #d1e7fd;
+      color: #004085;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 4px;
+      margin-left: 6px;
+      font-size: 0.85rem;
+    }
+    .vs {
+      color: #c82333;
+      font-weight: 700;
+      font-size: 1.1rem;
+    }
+    .score {
+      font-weight: 700;
+      color: #155724;
+      font-size: 1rem;
+    }
+    .points {
+      font-weight: 700;
+      color: #0c5460;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Team Schedule with Results and Points</h1>
+  
+  <section class="round">
+    <div class="round-date">Round 1 - 18-05-25</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th>Score</th>
+          <th>Team 2</th>
+          <th>Score</th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="team-name">እንዳ መድሃኔ ዓለም <span class="team-code">(A)</span></td>
+          <td class="score">7</td>
+          <td class="team-name">እንዳ ደብረ ብሥራት <span class="team-code">(F)</span></td>
+          <td class="score">2</td>
+          <td class="points">3 - 0</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section class="round">
+    <div class="round-date">Round 2 - 25-05-25</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th></th>
+          <th>Team 2</th>
+          <th></th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="team-name">እንዳ መድሃኔ ዓለም <span class="team-code">(A)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ሚካኤል <span class="team-code">(C)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ስላሴ <span class="team-code">(B)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ኡራኤል <span class="team-code">(D)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ሩፋኤል <span class="team-code">(E)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ደብረ ብሥራት <span class="team-code">(F)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section class="round">
+    <div class="round-date">Round 3 - 08-06-25</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th></th>
+          <th>Team 2</th>
+          <th></th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="team-name">እንዳ መድሃኔ ዓለም <span class="team-code">(A)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ስላሴ <span class="team-code">(B)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ሚካኤል <span class="team-code">(C)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ሩፋኤል <span class="team-code">(E)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ኡራኤል <span class="team-code">(D)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ደብረ ብሥራት <span class="team-code">(F)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section class="round">
+    <div class="round-date">Round 4 - 15-06-25</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th></th>
+          <th>Team 2</th>
+          <th></th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="team-name">እንዳ መድሃኔ ዓለም <span class="team-code">(A)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ኡራኤል <span class="team-code">(D)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ስላሴ <span class="team-code">(B)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ሩፋኤል <span class="team-code">(E)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ሚካኤል <span class="team-code">(C)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ደብረ ብሥራት <span class="team-code">(F)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section class="round">
+    <div class="round-date">Round 5 - 22-06-25</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th></th>
+          <th>Team 2</th>
+          <th></th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="team-name">እንዳ መድሃኔ ዓለም <span class="team-code">(A)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ሩፋኤል <span class="team-code">(E)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ስላሴ <span class="team-code">(B)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ደብረ ብሥራት <span class="team-code">(F)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ሚካኤል <span class="team-code">(C)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ኡራኤል <span class="team-code">(D)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <section class="round">
+    <div class="round-date">Round 6 - 29-06-25</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Team 1</th>
+          <th></th>
+          <th>Team 2</th>
+          <th></th>
+          <th>Points</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="team-name">እንዳ ስላሴ <span class="team-code">(B)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ሚካኤል <span class="team-code">(C)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td class="team-name">እንዳ ኡራኤል <span class="team-code">(D)</span></td>
+          <td class="vs">vs</td>
+          <td class="team-name">እንዳ ሩፋኤል <span class="team-code">(E)</span></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</body>
+</html>
+
